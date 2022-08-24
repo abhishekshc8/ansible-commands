@@ -1,0 +1,15 @@
+ apt update
+ clear
+ apt install python3.9
+ clear
+ vim /etc/ssh/sshd_config
+ ##############change the Password Authentication to yes
+ systemctl restart sshd
+ systemctl status sshd
+ clear
+ history
+ adduser alka
+ vim /etc/sudoers.d/90-cloud-init-users 
+ #################copy the first line of ubuntu and paste in 2nd line, remove ubuntu and tyoe the username of user name created
+ history
+ which python3.9
