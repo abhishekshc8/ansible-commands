@@ -1,0 +1,92 @@
+1  exit
+    2  clear
+    3  pwd
+    4  whoami
+    5  clear
+    6  history
+    7  exit
+    8  pwd
+    9  clear
+   10  ssh alka@172.31.10.2
+   11  ssh-keygen
+   12  ssh-copy-id alka@172.31.10.2
+   13  clear
+   14  ssh alka@172.31.10.2
+   15  history
+   16  ssh alka@172.31.10.2
+   17  clear
+   18  ssh abhishek@172.31.7.7
+   19  clear
+   20  ssh-copy-id abhsihek@172.31.7.7
+   21  ssh-copy-id abhishek@172.31.7.7
+   22  ssh abhishek@172.31.7.7
+   23  hostory
+   24  history
+   25  ssh abhishek@172.31.7.7
+   26  clear
+   27  ansible --version
+   28  logout
+   29  pwd
+   30  clear
+   31  vim .ansible.cfg
+   32  ansible --version
+   33  logout
+   34  ansible --version
+   35  clear
+   36  b=5
+   37  echo &b
+   38  echo $b
+   39  ansible --version
+   40  mkdir test
+   41  cd test
+   42  ansible --version
+   43  vim ansible.cfg
+   44  ansible --version
+   45  pwd
+   46  ls
+   47  clear
+   48  ls
+   49  vim ansible.cfg
+   50  cd
+   51  ssh-copy-id alka1@172.31.10.2
+   52  ssh alka@172.31.10.2
+   53  ssh-copy-id alka1@172.31.10.2
+   54  ssh alka1@172.31.10.2
+   55  clear
+   56  ls
+   57  cd test/
+   58  ansible --version
+   59  ls
+   60  vim ansible.cfg
+   61  cat ansible.cfg
+   62  pwd
+   63  vim /home/alka1/test
+   64  ls
+   65  vim /home/alka1/test
+   66  vim /home/alka1/test/myinv
+   67  ls
+   68  cat ansible.cfg
+   69  pwd
+   70  vim myinv
+   71  ls
+   72  vim myinv
+   73  cat myinv
+   74  clear
+   75  ansible g1 --list-hosts
+   76  ansible g2 --list-hosts
+   77  vim myinv
+   78  cat myinv
+   79  ansible g1 --list-hosts
+   80  ansible h1 --list-hosts
+   81  ansible h2 --list-hosts
+   82  vim myinv
+   83  ansible g3 --list-hosts
+   84  vim myinv
+   85  ansible g3 --list-hosts
+   86  ansible h3 --list-hosts
+   87  vim myinv
+   88  ansible h3 --list-hosts
+   89  ansiblr all --list-hosts
+   90  ansible all --list-hosts
+   91  ansible ungrouped --list-hosts
+   92  history
