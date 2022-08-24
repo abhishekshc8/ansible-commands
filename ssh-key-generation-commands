@@ -1,0 +1,6 @@
+10  ssh alka@172.31.10.2
+   11  ssh-keygen
+   12  ssh-copy-id alka@172.31.10.2
+   13  clear
+   14  ssh alka@172.31.10.2
+   15  history
