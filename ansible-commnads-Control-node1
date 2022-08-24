@@ -1,3 +1,4 @@
+ sudo hostnamectl set-hostname managenode2
  apt update
  clear
  apt install python3.9
