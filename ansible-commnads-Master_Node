@@ -1,1 +1,20 @@
 
+1  apt update
+    2  clear
+    3  apt update
+    4  history
+    5  clear
+    6  apt install ansible -y
+    7  which python
+    8  which python3.9
+    9  which python3
+   10  clear
+   11  which ansible
+   12  clear
+   13  ansible --vesrion
+   14  ansible --version
+   15  clear
+   16  adduser alka1
+   17  su alka1
+   18  su - alka1
+   19  history
