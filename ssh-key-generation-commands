@@ -4,3 +4,11 @@
    13  clear
    14  ssh alka@172.31.10.2 - ###### This command will login into manage node without manage node user password 
    15  history
+
+
+TO MANAGE-NODE2 COMMANDS
+18  ssh abhishek@172.31.7.7
+   19  clear
+   20  ssh-copy-id abhsihek@172.31.7.7
+   21  ssh-copy-id abhishek@172.31.7.7
+   22  ssh abhishek@172.31.7.7
