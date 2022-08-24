@@ -1,6 +1,6 @@
-10  ssh alka@172.31.10.2
-   11  ssh-keygen
-   12  ssh-copy-id alka@172.31.10.2
+10  ssh alka@172.31.10.2 - ##### It will login into manage node and will ask for managenode username password
+   11  ssh-keygen - ###### It will create a key on control node and save it on user home ssh directory
+   12  ssh-copy-id alka@172.31.10.2 - ####### This command will copy the .pub key to manage node
    13  clear
-   14  ssh alka@172.31.10.2
+   14  ssh alka@172.31.10.2 - ###### This command will login into manage node without manage node user password 
    15  history
