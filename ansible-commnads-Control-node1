@@ -1,3 +1,21 @@
+ clear
+    2  vim python
+    3  bash python
+    4  clear
+    5  ls
+    6  rm python
+    7  ls
+    8  apt instal python -y
+    9  apt install python -y
+   10  sudo apt install software-properties-common
+   11  clear
+   12  add-apt-repository ppa:deadsnakes/ppa
+ 
+ 
+ 
+ 
+ 
+ 
  sudo hostnamectl set-hostname managenode1
  apt update
  clear
