@@ -1,1 +1,77 @@
 
+1  exit
+    2  clear
+    3  pwd
+    4  whoami
+    5  clear
+    6  history
+    7  exit
+    8  pwd
+    9  clear
+   10  ssh alka@172.31.10.2
+   11  ssh-keygen
+   12  ssh-copy-id alka@172.31.10.2
+   13  clear
+   14  ssh alka@172.31.10.2
+   15  history
+   16  ssh alka@172.31.10.2
+   17  clear
+   18  ssh abhishek@172.31.7.7
+   19  clear
+   20  ssh-copy-id abhsihek@172.31.7.7
+   21  ssh-copy-id abhishek@172.31.7.7
+   22  ssh abhishek@172.31.7.7
+   23  hostory
+   24  history
+   25  ssh abhishek@172.31.7.7
+   26  clear
+   27  ansible --version
+   28  logout
+   29  pwd
+   30  clear
+   31  vim .ansible.cfg
+   32  ansible --version
+   33  logout
+   34  pwd
+   35  cd test/
+   36  pwd
+   37  ansible --version
+   38  clear
+   39  ansible-doc -l
+   40  w
+   41  clear
+   42  ansible-doc apt
+   43  ansible-doc apache2
+   44  apt update
+   45  ansible-doc apt
+   46  ansible-doc apache
+   47  ansible-doc apt
+   48  ansible-doc yum
+   49  ansible-doc apt
+   50  ansible-doc aws
+   51  clear
+   52  ansible h1 -m ping
+   53  cd test/
+   54  ansible h1 -m ping
+   55  ls
+   56  cat myinv
+   57  ansible h2 -m ping
+   58  ansible all -m ping
+   59  ansible h1 -m -q
+   60  clear
+   61  ansible-doc -l
+   62  clear
+   63  ansible all -m command -a "hostname"
+   64  ls
+   65  vim myinv
+   66  ansible all -m command -a "hostname"
+   67  ansible all -m command -a "whoami"
+   68  ansible all -m command -a "pwd"
+   69  ansible all -m command -a echo "my name is abhishek" > saharsa.txt
+   70  ansible all -m command -a "echo "my name is abhishek" > saharsa.txt"
+   71  clear
+   72  ansible all -m command -a "pwd"
+   73  ansible h1 -m command -a "pwd"
+   74  ansible h2 -m command -a "pwd"
+   75  ansible h3 -m command -a "pwd"
+   76  history
