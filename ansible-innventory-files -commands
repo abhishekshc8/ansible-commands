@@ -90,3 +90,27 @@
    90  ansible all --list-hosts
    91  ansible ungrouped --list-hosts
    92  history
+   92  history
+   93  vim ansible.cfg
+   94  cat myinv
+   95  vim  myinv
+   96  ansible g3 -m ping
+   97  ansible h3 -m ping
+   98  vim myinv
+   99  ansible all -m ping
+  100  ansible h3 -m ping
+  101  ssh abhishek@172.31.7.7
+  102  ssh-copy-id abhishek@172.31.7.7
+  103  ansible all -m ping
+  104  vim ansible.cfg
+  105  vim  myinv
+  106  vat myinv
+  107  cat myinv
+  108  vim ansible.cfg
+  109  ansible all -m ping
+  110  vim ansible.cfg
+  111  ansible all -m ping
+  112  cat ansible.cfg
+  113  vim ansible.cfg
+  114  ansible all -m ping
+  115  history
