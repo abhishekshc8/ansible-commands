@@ -1,0 +1,21 @@
+cat first.yml
+- name: Installing the Apache Webserver
+  hosts: all
+  become: yes
+  tasks:
+    - name: Installing Apache
+      apt: 
+        name: apache2
+        state: present
+    - name: Start Apadche Web Server
+      service:
+        name: apache2
+        state: started
+    - name: create a index.html file
+      file:
+        path: /var/www/html/index.html
+        state: present
+    - name: edit a file
+      lineinfile:
+        line: "Hi Ansible , Playbook"
+        path: /var/www/html/index.html    
