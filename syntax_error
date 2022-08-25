@@ -14,23 +14,28 @@ The offending line appears to be:
     - name: Start Apadche Web Server
     ^ here
 alka1@controlnode:~/test$ cat first.yml
+#################################################
 - name: Installing the Apache Webserver
   hosts: all
   become: yes
   tasks:
+    - name: update apt
+      shell: apt update
     - name: Installing Apache
-  apt: 
+      apt:
         name: apache2
         state: present
-    - name: Start Apadche Web Server
- service:
+    - name: Start Apache  Server
+      service:
         name: apache2
         state: started
     - name: create a index.html file
       file:
         path: /var/www/html/index.html
-        state: present
+        state: touch
     - name: edit a file
       lineinfile:
         line: "Hi Ansible , Playbook"
         path: /var/www/html/index.html
+  #################################################      
+
