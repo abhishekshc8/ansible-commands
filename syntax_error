@@ -1,0 +1,36 @@
+alka1@controlnode:~/test$ ansible-playbook --syntax-check first.yml
+ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/alka1/test/first.yml': line 9, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        state: present
+    - name: Start Apadche Web Server
+    ^ here
+alka1@controlnode:~/test$ cat first.yml
+- name: Installing the Apache Webserver
+  hosts: all
+  become: yes
+  tasks:
+    - name: Installing Apache
+  apt: 
+        name: apache2
+        state: present
+    - name: Start Apadche Web Server
+ service:
+        name: apache2
+        state: started
+    - name: create a index.html file
+      file:
+        path: /var/www/html/index.html
+        state: present
+    - name: edit a file
+      lineinfile:
+        line: "Hi Ansible , Playbook"
+        path: /var/www/html/index.html
